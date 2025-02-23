@@ -1,0 +1,140 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    color: rgb(var(--text-color));
+}
+
+.filter-button-tip, .filter-button-number, .filter-button-sticker, .filter-button-rarity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(var(--second-color), 0.6);
+    border: 5px solid rgba(var(--main-color), 0.6);
+    border-radius: 20px;
+    width: 79%;
+    margin-left: 9%;
+    margin-right: 10%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.filter-button-tip select {
+    font-size: 20px;
+    color: rgb(var(--text-color));
+    width: 75%;
+    border: none;
+    background-color: rgba(var(--second-color), 0.1);
+}
+
+.filter-button-number label {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.filter-button-number input {
+    width: 50%;
+    color: rgb(var(--text-color));
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 1px solid rgba(var(--secondary-color));
+    background-color: rgba(var(--main-color));
+}
+
+.filter-button-rarity div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.filter-button-rarity button {
+    font-size: 18px;
+    height: 30px;
+    padding: 2%;
+    border: none;
+    background-color: rgba(var(--second-color), 0.1);
+
+    color: rgb(var(--text-color));
+    transition: background-color 0.3s ease;
+}
+
+.filter-button-rarity button:hover {
+    background-color: rgb(var(--secondary-color), 0.6);
+}
+
+.filter-button-sticker select {
+    width: 80%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    color: rgb(var(--text-color));
+    background-color: rgba(var(--second-color), 0.1);
+}
+
+.filter-button-sticker option, .filter-button-tip option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(var(--main-color), 0.6);
+    border-radius: 20px;
+    padding-right: 5%;
+}
+
+.filter-button-activ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(var(--secondary-color), 0.1);
+    background-color: rgba(var(--second-color), 0.6);
+    color: rgba(var(--text-color));
+    transition: background-color 0.3s ease;
+    margin-left: 32.5%;
+}
+
+.filter-button-rarity button.activbutton-filter {
+    background-color: rgba(var(--secondary-color), 0.6);
+    color: rgba(var(--text-color), 1);
+}
+
+.filter-button-rarity button:active {
+    background-color: rgba(var(--secondary-color), 0.8);
+}
+
+
+@media (min-width: 401px) and (max-width: 600px) {
+    .filter {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 601px) {
+    .filter {
+        margin-top: 5%;
+    }
+}

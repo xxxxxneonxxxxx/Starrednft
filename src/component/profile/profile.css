@@ -1,0 +1,137 @@
+.Profile {
+    width: 100%;
+    height: 100vh;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgba(var(--main-color), 0.8);
+    overflow: hidden;
+    position: relative;
+}
+
+.Profile-user{
+    color: rgba(var(--text-color));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    width:78%;
+    border-radius: 30px;
+    background-color: rgba(var(--second-color),0.8);
+    border: 5px solid rgba(var(--main-color),0.5);
+
+}
+
+.Profile-user img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.Profile-user-info{
+    margin-top: 20px;
+    color: rgba(var(--text-color));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    justify-content: center;
+}
+.balance{
+    display:flex;
+    flex-direction:row;
+    justify-content:start;
+    align-items:center;
+    width:auto;
+    padding:5%;
+    font-size: 25px;
+    border-radius:20px;
+    height:40px;
+}
+
+
+.Profile-buttonsBalance{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;;
+    align-items:center;
+    width:100%;
+    height:45px;
+}
+
+.Profile-buttonsBalance-output,
+.Profile-buttonsBalance-input {
+    width: 120px;
+    height: 35px;
+    font-size: 80%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: rgba(var(--text-color), 1);
+    background: linear-gradient(40deg,rgba(var(--secondary-color),0.3),rgba(var(--main-color),1));
+    border-radius: 15px;
+}
+
+
+
+.Profile-buttonNavigate{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Profile-button-orders,.Profile-button-support {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width: 80%;
+    margin-left: 10%;
+    padding:10px;
+    border-radius:20px;
+    background-color: rgba(var(--second-color),0.8);
+    border: 5px solid rgba(var(--main-color),0.5);    color:rgb(var(--text-color));
+    font-size:25px;
+    height:85px;
+    margin-top:5%;
+
+}
+
+.line-conteiner{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.line_1,.line_2{
+    width:20px;
+    height:2px;
+    background-color:black;
+    position: absolute;
+}
+.line_1{
+    transform: rotate(135deg);
+    transform-origin: top left;
+}
+.line_2{
+    width: 20.5px;
+    transform: rotate(-135deg);
+    transform-origin: top left;
+}
+
+

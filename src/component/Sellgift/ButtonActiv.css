@@ -1,0 +1,25 @@
+.button_sellgift_modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_sellgift_modal_image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(var(--main-color), 0.8);
+    border-radius: 1000px;
+}
+
+.button_sellgift_modal_animation {
+    width: 150px;
+    height: 150px;
+}
+
+.button_sellgift_modal_animation_loaded {
+    width: 75px;
+    height: 75px;
+}

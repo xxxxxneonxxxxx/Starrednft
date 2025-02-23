@@ -1,0 +1,227 @@
+
+.Sellgift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(var(--main-color));
+    color: rgb(var(--text-color));
+    width: 100%;
+    height: 100%;
+    margin-bottom: 35%;
+}
+
+#h1_sellgift {
+    padding-right: 30%;
+    font-size: 25px;
+    color: white;
+}
+
+.gift-sell {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    background-color: rgb(var(--second-color));
+    border-radius: 30px;
+    padding: 20px;
+    width: 70%;
+    border: 5px solid rgba(var(--main-color), 0.5);
+    height: 100%;
+}
+
+.gift-sell label {
+    padding-bottom: 5px;
+}
+
+#gift-select {
+    padding-left: 8px;
+}
+
+.name_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.line_3 {
+    position: fixed;
+    transform: rotate(90deg);
+    top: 50%;
+    left: -85%;
+    width: 200%;
+    height: 2px;
+    background-color: black;
+}
+
+.line_4 {
+    position: fixed;
+    transform: rotate(90deg);
+    top: 50%;
+    left: -15%;
+    width: 200%;
+    height: 2px;
+    background-color: black;
+}
+
+.open-close, .gift-sell-spotgift {
+    color: gray;
+    display: flex;
+    align-items: center;
+    background-color: rgb(var(--main-color), 0.8);
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.object-sellgift img {
+    width: 10px;
+    height: 10px;
+}
+
+.container_object, .characteristic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(var(--main-color), 0.8);
+    color: white;
+    box-sizing: border-box; /* Учитывает padding и border */
+
+}
+
+.object-sellgift {
+    height: 30px;
+    width: 91%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(var(--main-color), 0.8);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.object-sellgift_1 {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 30px;
+    border: none;
+    background-color: rgb(var(--main-color), 0.8);
+    color: white;
+}
+
+.object-sellgift_2 {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(var(--secondary-color), 0.5);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+#price-sell {
+    margin-top: 20px;
+}
+
+.sell-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(var(--main-color), 0.8);
+
+}
+
+#image-sell {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#input-sell {
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    height: 95%;
+    background-color: rgb(var(--main-color), 0.8);
+    color: white;
+}
+
+.sell-button {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    color: rgb(var(--text-color));
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgba(var(--secondary-color), 0.5);
+}
+
+.sell-container-input-sell {
+    border: none;
+    height: 90%;
+    margin-left: 5%;
+    font-size: 16px;
+    color: rgb(var(--text-color));
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.lottie-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.sell-button:hover {
+    background-color: rgba(var(--secondary-color), 1);
+}
+
+.sell-button-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.sell-button-price p {
+    padding-left: 10%;
+}
+
+.input-error {
+    border: 2px solid red;
+}
+
+.error-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#error-text-button {
+    margin-bottom: 10%;
+}

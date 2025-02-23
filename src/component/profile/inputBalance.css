@@ -1,0 +1,101 @@
+.InputBalance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 35%;
+    color: rgb(var(--text-color));
+}
+
+.InputBalance p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.InputBalance-staticButton {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin-top: 10%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.InputBalance-staticButton * {
+    width: 33%;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.animation {
+    width: 100%;
+}
+
+.InputBalance-staticButton button {
+    border: none;
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: rgba(var(--secondary-color), 0.4);
+    color: rgb(var(--text-color), 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.InputBalance-invaluable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: rgba(var(--second-color));
+    color: rgb(var(--text-color));
+    border: 5px solid rgba(var(--main-color), 0.5);
+    font-size: 20px;
+    margin-top: 5%;
+    height: 50px;
+}
+
+.InputBalance-input {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+
+
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bot-message {
+    color: rgba(var(--text-color));
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 15px auto;
+    max-width: 70%;
+    font-weight: 500;
+}
+

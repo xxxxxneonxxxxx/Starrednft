@@ -1,0 +1,152 @@
+.shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 28%;
+    overflow-x: hidden;
+    color: rgba(var(--text-color));
+}
+
+.shop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    background: rgba(var(--second-color), 0.5);
+    border: 5px solid rgba(var(--main-color), 0.5);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.shop-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    overflow-x: auto;
+    padding-top: 5%;
+}
+
+#tip {
+    margin-left: 3%;
+}
+
+
+#nomer {
+    margin-right: 8%;
+}
+
+.shop-container-stack {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 100px;
+}
+
+#animation-name {
+    padding: 3%;
+}
+
+.WindowShopAktiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+    height: 20px;
+}
+
+.WindowShopAktiv-button {
+    margin-bottom: 5%;
+    font-size: 12px;
+    color: black;
+    display: flex;
+    width: 70%;
+    margin-top: 10%;
+    border: 3px solid rgb(var(--second-color), 0.5);
+    border-radius: 30px;
+    background-color: rgba(var(--text-color), 0.8);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.WindowShopAktiv-img {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.empty-message {
+    width: 100%;
+    text-align: center;
+    margin-right: 30%;
+    background-color: rgba(255, 193, 7, 0.9);
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    justify-content: center;
+    display: flex;
+    max-width: 70%;
+    font-weight: 500;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 340px) {
+    .shop-container {
+        flex: 0 1 calc(100%);
+    }
+}
+
+@media (min-width: 341px) and (max-width: 600px) {
+    .shop-container {
+        flex: 0 1 calc(50% - 10px);
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    .shop-container {
+        flex: 0 1 calc(33.33% - 10px);
+    }
+}
+
+@media (min-width: 801px) {
+    .shop-container {
+        flex: 0 1 calc(10% - 10px);
+    }
+
+    .WindowShopAktiv-button {
+        width: 85%;
+    }
+}
